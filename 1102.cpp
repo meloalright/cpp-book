@@ -7,12 +7,6 @@ int multi(int x ,int y);
 int divide(int x,int y);
 void comput(int x,int y,int(*fp)(int ,int));
 int main(void){
-	/*char a[4] = {'3','d','a','\0'};
-	char *p = a;
-	a[0] = '5';
-	p[1] = 'r';
-	p[2] = 'e';
-	cout << a << endl;*/
 	/*int num;
 	char *p;
 	cout << "INPUT THE NUM OF SINGER"<< endl;
