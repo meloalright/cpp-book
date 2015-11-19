@@ -32,9 +32,7 @@ class Array{
 		int *p;
 		int len;
 };
-
-//对象数组
-class Teacher{
+class Teacher{//对象数组
 	public:
 		Teacher(string name,char sex,int age){
 			teacName = name;
@@ -50,7 +48,6 @@ class Teacher{
 		char teacSex;
 		int teacAge;
 };
-
 int main(){
 	//深复制
 	Array a1(5);
